@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "swap.h"
+#include "functions.h"
 
 using namespace std;
 
