@@ -1,4 +1,6 @@
-template <class T> void swap(T& first, T& second)
+#include "swap.h"
+
+template <class T> void mySwap(T& first, T& second)
 {
 	T temp = first;
 	first = second;
