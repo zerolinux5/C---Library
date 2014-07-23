@@ -2,7 +2,7 @@
 
 template <class T> void mySwap(T& first, T& second)
 {
-	first = first ^ second;
-	second = first ^ second;
-	first = first ^ second;
+	first ^= second;
+	second ^= first;
+	first ^= second;
 }
