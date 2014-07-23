@@ -4,7 +4,12 @@ using namespace std;
 
 string reverseString(string inputString)
 {
-	return inputString;
+	int i = inputString.length() - 1;
+	string returnString;
+	for(; i >= 0; i--){
+		returnString += inputString[i];
+	}
+	return returnString;
 }
 
 int main()
