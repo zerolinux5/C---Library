@@ -8,5 +8,5 @@ template <class T> void mySwap(T& first, T& second);
 string reverseString(string inputString); 
 string reverseStringR(string inputString);
 double tempConverter(double temp, string from, string to);
-
+double massConverter(double mass, string from, string to);
 #endif
