@@ -23,3 +23,26 @@ double tempConverter(double temp, string from, string to)
                 }
         }
 }
+
+double massConverter(double mass, string from, string to)
+{
+        if(from.compare("kg") == 0){
+                if(to.compare("lb") == 0){
+                        return (mass*2.20462);
+                } else {
+                        return (mass/1000);
+                }
+        } else if (from.compare("g") == 0){
+                if(to.compare("lb") == 0){
+                        return (mass * 0.00220462);
+                } else {
+                        return (mass * 1000);
+                }
+        } else {
+                if (to.compare("kg") == 0){
+                        return (mass * 0.453592);
+                } else {
+                        return (mass * 453.592);
+                }
+        }
+}
