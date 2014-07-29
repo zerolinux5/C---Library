@@ -9,4 +9,6 @@ string reverseString(string inputString);
 string reverseStringR(string inputString);
 double tempConverter(double temp, string from, string to);
 double massConverter(double mass, string from, string to);
+int stepCounter(int inoutNumber);
+
 #endif
